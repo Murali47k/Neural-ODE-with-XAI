@@ -1,5 +1,42 @@
 # Neural-ODE-with-XAI
 
-[Reference of Neural ODE](https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf)
+Exploring **Neural Ordinary Differential Equations (Neural ODEs)** and combining them with **Explainable AI (XAI)** techniques for better interpretability.
 
-[Reference for Dataset](https://www.kaggle.com/datasets/djhavera/beijing-pm25-data-data-set)
+
+## Overview
+
+This project explores:
+
+- Learning **continuous-time dynamics** using Neural ODEs  
+- Applying models to:
+  - **Lorenz Attractor** (true dynamical system)  
+  - **Beijing PM2.5 dataset** (real-world noisy time series)  
+- Using **XAI techniques (SHAP, Gradient-based)** to interpret models  
+
+
+## Notebooks
+
+- `neural_ode.ipynb` → Core Neural ODE implementation  
+- `node_lorenz.ipynb` → Lorenz system modeling  
+- `node_xai_beijing.ipynb` → PM2.5 + XAI analysis  
+
+---
+
+##  Reports
+
+- **Lorenz_System.pdf** → ODE learning analysis  
+- **Neural_ODE.pdf** → Core methodology  
+- **Neural_ODE_with_XAI.pdf** → Combined study  
+
+---
+
+## References
+
+- [Neural ODE Paper](https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf)
+- [Beijing PM2.5 Dataset (Kaggle)](https://www.kaggle.com/datasets/djhavera/beijing-pm25-data-data-set)
+- Lorenz Dataset → `Dataset/lorenz_attractor.csv`
+
+---
+#### Made by M Murali Karthick
+---
+
