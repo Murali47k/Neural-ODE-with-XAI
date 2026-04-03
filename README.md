@@ -18,7 +18,8 @@ This project explores:
 
 - `neural_ode.ipynb` → Core Neural ODE implementation  
 - `node_lorenz.ipynb` → Lorenz system modeling  
-- `node_xai_beijing.ipynb` → PM2.5 + XAI analysis  
+- `node_xai_beijing.ipynb` → PM2.5 + XAI analysis
+- `lorenz.ipynb` → Lorenz system modeling updated implementation
 
 ---
 
@@ -26,7 +27,8 @@ This project explores:
 
 - **Lorenz_System.pdf** → ODE learning analysis  
 - **Neural_ODE.pdf** → Core methodology  
-- **Neural_ODE_with_XAI.pdf** → Combined study  
+- **Neural_ODE_with_XAI.pdf** → Combined study
+- **Lorenz_System_Updated.pdf** → Improved Neural ODE model  
 
 ---
 
@@ -36,7 +38,5 @@ This project explores:
 - [Beijing PM2.5 Dataset (Kaggle)](https://www.kaggle.com/datasets/djhavera/beijing-pm25-data-data-set)
 - Lorenz Dataset → `Dataset/lorenz_attractor.csv`
 
----
-#### Made by M Murali Karthick
 ---
 
